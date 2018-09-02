@@ -1,0 +1,16 @@
+{
+  "hash": "2a0dedc62a94b29c49765c8ac4f7f3b3",
+  "root": "esy-bullet@path:.",
+  "node": {
+    "esy-bullet@path:.": {
+      "record": {
+        "name": "esy-bullet",
+        "version": "path:.",
+        "source": "path:.",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": []
+    }
+  }
+}
