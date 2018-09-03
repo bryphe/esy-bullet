@@ -15,7 +15,7 @@ bullet-native:
 	cd bullet3/lib; ls -a
 
 install:
-	cp bullet3/lib $(PREFIX)/lib/native
-	cp bullet3/src $(PREFIX)/lib/include
-	cp ammo.js/builds $(PREFIX)/lib/js
+	cp -r bullet3/lib $(PREFIX)/lib/native
+	cp -r bullet3/src $(PREFIX)/lib/include
+	cp -r ammo.js/builds $(PREFIX)/lib/js
 
