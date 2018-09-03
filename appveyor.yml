@@ -13,6 +13,8 @@ install:
     - ps: Install-Product node 8 x64
     - npm install -g esy@0.2.9
     - cp cygwin1-patched.dll C:/Users/appveyor/AppData/Roaming/npm/node_modules/esy/node_modules/esy-bash/.cygwin/bin/cygwin1.dll
+    # Install Cmake
+    - node C:/Users/appveyor/AppData/Roaming/npm/node_modules/esy/node_modules/esy-bash/bin/esy-bash.js /setup-x86_64.exe -q --packages cmake
     # Retry is necessary due to esy/esy#413 and esy/esy#414
     - appveyor-retry esy install
 
