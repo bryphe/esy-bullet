@@ -8,7 +8,7 @@ install:
 - travis_retry npm install -g esy@0.2.9
 - travis_wait esy install
 script:
-- esy build
+- travis_wait esy build
 cache:
   timeout: 360
   directories:
