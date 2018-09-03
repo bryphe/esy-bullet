@@ -13,7 +13,7 @@
   "dependencies": {
   },
   "resolutions": {
-      "@bryphe/esy-cmake": "github:bryphe/esy-cmake#89a591f"
+      "@bryphe/esy-cmake": "github:bryphe/esy-cmake#1e30621"
   },
   "devDependencies": {
       "@bryphe/esy-cmake": "*"
