@@ -15,3 +15,4 @@ bullet-native:
 	cd bullet3; make LinearMath
 	cd bullet3; make BulletCollision
 	cd bullet3; make BulletDynamics
+	cd bullet3/lib; ls -a
