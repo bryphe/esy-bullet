@@ -6,9 +6,10 @@
   "esy": {
     "build": [
         ["make", "prep"],
-        ["make", "bullet-native"],
-        ["make", "install"]
-    ]
+        ["make", "bullet-native", "BUILD=#{self.target_dir}/bullet3"],
+        ["make", "install", "BUILD=#{self.target_dir}/bullet3", "PREFIX=#{self.root}"]
+    ],
+    "buildsInSource": true
   },
   "dependencies": {
       "@bryphe/esy-cmake": "*"
