@@ -1,5 +1,5 @@
 {
-  "hash": "2a0dedc62a94b29c49765c8ac4f7f3b3",
+  "hash": "61008de942832a0e3293fabc32394f72",
   "root": "esy-bullet@path:.",
   "node": {
     "esy-bullet@path:.": {
@@ -7,6 +7,16 @@
         "name": "esy-bullet",
         "version": "path:.",
         "source": "path:.",
+        "files": [],
+        "opam": null
+      },
+      "dependencies": [ "@bryphe/esy-cmake@github:bryphe/esy-cmake#89a591f" ]
+    },
+    "@bryphe/esy-cmake@github:bryphe/esy-cmake#89a591f": {
+      "record": {
+        "name": "@bryphe/esy-cmake",
+        "version": "github:bryphe/esy-cmake#89a591f",
+        "source": "github:bryphe/esy-cmake#89a591f",
         "files": [],
         "opam": null
       },
