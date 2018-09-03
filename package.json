@@ -6,7 +6,8 @@
   "esy": {
     "build": [
         ["make", "prep"],
-        ["make", "bullet-native"]
+        ["make", "bullet-native"],
+        ["make", "install"]
     ]
   },
   "dependencies": {
