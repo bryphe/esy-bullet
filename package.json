@@ -6,7 +6,7 @@
   "esy": {
     "build": [
         ["make", "prep"],
-        ["make", "bullet-native", "BUILD=#{self.target_dir}/bullet3"],
+        ["make", "bullet-native", "BUILD=#{self.target_dir}/bullet3", "VERBOSE=1"],
         ["make", "install", "BUILD=#{self.target_dir}/bullet3", "PREFIX=#{self.root}"]
     ],
     "buildsInSource": true
