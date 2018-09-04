@@ -1,7 +1,7 @@
 ifeq (, $(shell which x86_64-w64-mingw32-g++))
 CMAKE_ARGS=
 else
-CMAKE_ARGS=-G "Unix Makefiles" -DCMAKE_C_COMPILER=x86_64-w64-mingw32-gcc -DCMAKE_CXX_COMPILER=x86_64-w64-mingw32-g++ -DCMAKE_AR=/usr/bin/x86_64-w64-mingw32-ar -DCMAKE_LINKER=/usr/bin/x86_64-w64-mingw32-ld -DCMAKE_CXX_FLAGS="-static -fno-exceptions -static-libstdc++ -static-libgcc" -DBUILD_EXTRAS=off -DBUILD_DEMOS=off
+CMAKE_ARGS=-G "Unix Makefiles" -DCMAKE_C_COMPILER=x86_64-w64-mingw32-gcc -DCMAKE_CXX_COMPILER=x86_64-w64-mingw32-g++ -DCMAKE_AR=/usr/bin/x86_64-w64-mingw32-ar -DCMAKE_LINKER=/usr/bin/x86_64-w64-mingw32-ld -DBUILD_EXTRAS=off -DBUILD_DEMOS=off
 endif
 
 prep:
